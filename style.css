@@ -208,7 +208,7 @@ nav {
 .meeting-zone {
 	background-image: linear-gradient(rgba(255,255,255,0.15),rgba(255,255,255,0.15)), url(meeting-area.jpg);
 	background-size: cover;
-	color:  var(--main-color);
+	color:  white;
 	text-align: center;
 }
 
