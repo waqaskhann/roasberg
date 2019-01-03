@@ -1,0 +1,345 @@
+/*DESKTOPS*/
+@media only screen and (max-width: 1200px) {
+.meeting-zone h2 {
+	font-size: 2.6rem;
+}
+
+.meeting-info h3 {
+	font-size: 2.2rem;
+}
+
+/*FOOTER*/
+	.testimonial-text-1::after {
+		top: 10rem;	
+	}
+
+	.testimonial-text-2::after {
+		top: 10rem;
+	}
+
+	.testimonial-picture {
+	flex-basis: 8rem;
+	height: 8rem;
+	margin: 0 3rem 0 2rem;
+	}
+}
+
+
+@media only screen and (max-width: 1060px) {
+	.testimonial-text-1::after {
+		top: 12rem;
+}
+	.testimonial-text-2::after {
+		top: 12rem;
+}
+}
+
+
+/*SMALL DESKTOPS/BIG TABLETS*/
+@media only screen and (max-width: 992px) {
+
+/*HEADER*/
+
+header {
+	background-position: 60%;
+
+}
+
+nav {
+	height: 80px;
+}
+
+
+.nav-options {
+	height: 80px;
+}
+
+.nav .nav-options img{
+	width: 150px;
+}	
+
+.nav-options a {
+	font-size: 1.4rem;
+}
+
+/*MENU*/
+.menu-container p {
+	font-size: 2.2rem;
+	margin: 2rem 0;
+}
+
+.item-name {
+	flex-basis: 80%;
+}
+
+.item-price p {
+	padding: 0 2rem 0 0;
+}
+
+.hot-beverages-menu::before,
+.food-menu::before,
+.other-beverages-menu::before {
+	background-position: 50%;
+}
+
+.hot-beverages-menu::after,
+.food-menu::after,
+.other-beverages-menu::after {
+	font-size: 4.5rem;
+}
+
+
+/*MEETING ZONE*/
+.meeting-zone h2 {
+	font-size: 2.2rem;
+	line-height: 3rem;
+}
+
+.meeting-info h3 {
+	font-size: 2rem;
+	line-height: 2.4rem;
+}
+
+.info-box .btn {
+	font-size: 1.6rem;
+}
+
+/*FEATURE SECTION*/
+
+.features h2 {
+	font-size: 2.2rem;
+}
+
+.features p {
+	font-size: 2rem;
+}
+
+/*FOOTER*/
+	.footer {
+		flex-direction: column;
+	}
+
+	.testimonial h2 {
+		text-align: center;
+		padding-left: 0;
+	}
+
+	.testimonial-text-1::after {
+		top: 8rem;
+	}
+	.testimonial-text-2::after {
+		top: 8rem;
+	}
+
+
+.time {
+	padding-bottom: 6rem;
+}
+
+.copyright {
+	font-size: 1.2rem;
+	width: 100%;
+	text-align: center;
+}
+}
+
+
+
+/*SMALL TABLETS*/
+@media only screen and (max-width: 768px) {
+
+/*HEADER*/
+
+nav {
+	height: 60px;
+}
+
+.nav .nav-options img{
+	width: 120px;
+}	
+
+.nav-options {
+	height: 60px;
+}
+
+.nav-options a {
+	font-size: 1.3rem;
+	margin: 0 1.5rem;
+}
+
+#text-main {
+	font-size: 2.8rem;
+}
+
+#text-sub {
+	font-size: 1.8rem;
+}
+
+/*MENU*/
+.item-name {
+	flex-basis: 80%;
+}
+
+.item-price p {
+	padding: 0 1.5rem 0 0;
+}
+
+.menu-container p {
+	font-size: 1.8rem;
+	margin: 1.5rem 0;
+}
+
+.hot-beverages-menu::after,
+.food-menu::after,
+.other-beverages-menu::after {
+	font-size: 4rem;
+}
+
+/*MEETING ZONE*/
+.meeting-zone h2 {
+	font-size: 2.2rem;
+	line-height: 3rem;
+}
+
+.meeting-row {
+	flex-direction: column;
+	width: 70%;
+}
+
+.info-box {
+	margin: 0 auto 6rem auto;
+}
+
+/*FEATURE SECTION*/
+
+.features h2 {
+	font-size: 2rem;
+	line-height: 3rem;
+}
+
+.features p {
+	font-size: 1.6rem;
+	margin-top: 3rem;
+}
+
+.feature-row {
+	margin: 5rem 0;
+}
+
+.feature-row h3 {
+	font-size: 1.6rem;
+	margin-top: 2rem;
+}
+
+.feature-row h6 {
+	font-size: 1.4rem;
+	font-weight: 400;
+}
+
+/*FOOTER*/
+
+	.testimonial-text-1::after {
+		top: 9rem;
+	}
+	.testimonial-text-2::after {
+		top: 9rem;
+	}
+
+}
+
+@media only screen and (max-width: 650px) {
+	.testimonial-text-2::after {
+		top: 10rem;
+	}
+}
+
+
+
+/*MOBILE PHONES*/
+@media only screen and (max-width: 576px) {
+
+/*HEADER*/
+
+
+.nav .nav-options img{
+	width: 120px;
+}	
+
+.nav-options {
+	height: 60px;
+}
+
+.nav-options a {
+	font-size: 1.2rem;
+	margin: 0 1.2rem;
+}
+
+#text-main {
+	font-size: 2.8rem;
+	line-height: 4rem;
+}
+
+#text-sub {
+	font-size: 1.8rem;
+	line-height: 3.2rem;
+}
+
+/*MENU*/
+.item-name {
+	flex-basis: 80%;
+}
+
+.menu-container {
+	flex-direction: column;
+}
+
+
+.hot-beverages-menu,
+.food-menu,
+.other-beverages-menu {
+	flex-basis: 100%;
+}
+
+/*FEATURE SECTION*/
+
+.features p {
+	font-size: 1.4rem;
+	margin-top: 2rem;
+}
+
+.feature-row {
+	margin: 4rem 0 5rem 0;
+}
+
+.feature-row h3 {
+	font-size: 1.6rem;
+	margin-top: 2rem;
+}
+
+.feature-row h6 {
+	font-size: 1.4rem;
+	font-weight: 400;
+}
+
+
+/*FOOTER*/
+
+.testimonial-text-2::after {
+		top: 9rem;
+	}
+
+
+.testimonial-text {
+	font-size: 1.5rem;
+}
+
+.time {
+	padding-bottom: 6rem;
+}
+
+.copyright {
+	font-size: 1.2rem;
+	width: 100%;
+	text-align: center;
+}
+}
